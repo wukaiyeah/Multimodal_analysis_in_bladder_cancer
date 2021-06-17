@@ -1,0 +1,40 @@
+HAllA version:	0.8.18
+
+--Configuration parameters--
+  preprocess:
+    max freq thresh               : 1
+    transform funcs               : None
+    discretize bypass if possible : True
+    discretize func               : None
+    discretize num bins           : None
+  association:
+    pdist metric                  : spearman
+  hierarchy:
+    sim2dist set abs              : True
+    sim2dist func                 : None
+    linkage method                : average
+  permute:
+    iters                         : 1000
+    func                          : gpd
+    speedup                       : True
+  stats:
+    fdr alpha                     : 0.05
+    fdr method                    : fdr_bh
+    fnr thresh                    : 0.2
+    rank cluster                  : best
+  output:
+    dir                           : /media/wukai/AI_Team_03/Bladder_project/FeatureAssociations/output
+    verbose                       : True
+
+--Results--
+X shape (# features, # size)                                : (200, 127)
+Y shape (# features, # size)                                : (426, 127)
+Number of significant associations                          : 4770
+Number of significant clusters                              : 827
+
+--Durations--
+Loading and preprocessing data                              : 0:00:00.195546
+Computing pairwise similarities, p-values, q-values         : 0:01:05.798474
+Performing hierarchical clustering                          : 0:00:42.067621
+Finding densely associated blocks                           : 0:00:03.638047
+Total execution time                                        : 0:01:51.699689

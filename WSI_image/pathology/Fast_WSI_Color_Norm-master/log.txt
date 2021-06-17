@@ -1,0 +1,498 @@
+2021-04-07T01:26:13,333 Using pip 21.0.1 from /share/Data01/wupeng2/Anaconda/envs/py3.6/lib/python3.6/site-packages/pip (python 3.6)
+2021-04-07T01:26:13,337 Non-user install because site-packages writeable
+2021-04-07T01:26:13,369 Created temporary directory: /tmp/pip-ephem-wheel-cache-5r5triqr
+2021-04-07T01:26:13,369 Created temporary directory: /tmp/pip-req-tracker-2cntmgw9
+2021-04-07T01:26:13,370 Initialized build tracking at /tmp/pip-req-tracker-2cntmgw9
+2021-04-07T01:26:13,370 Created build tracker: /tmp/pip-req-tracker-2cntmgw9
+2021-04-07T01:26:13,370 Entered build tracker: /tmp/pip-req-tracker-2cntmgw9
+2021-04-07T01:26:13,370 Created temporary directory: /tmp/pip-install-l7esub9o
+2021-04-07T01:26:13,385 1 location(s) to search for versions of spams:
+2021-04-07T01:26:13,385 * https://pypi.org/simple/spams/
+2021-04-07T01:26:13,385 Fetching project page and analyzing links: https://pypi.org/simple/spams/
+2021-04-07T01:26:13,386 Getting page https://pypi.org/simple/spams/
+2021-04-07T01:26:13,387 Found index url https://pypi.org/simple
+2021-04-07T01:26:14,725   Found link https://files.pythonhosted.org/packages/0d/09/ae296293c992e6ec792952827b66ca97cee375af53585c85a1e6d4a54f02/spams-2.6.1.tar.gz#sha256=5735c31233046aac4233cc21832fc4a604169531b05ba6d2df42d581d0e0ffe0 (from https://pypi.org/simple/spams/), version: 2.6.1
+2021-04-07T01:26:14,726   Found link https://files.pythonhosted.org/packages/de/96/b85034a58651f4eb9713852bed92dc7b2c24b443ba2e5ea98aa211496e3b/spams-2.6.2.5.tar.gz#sha256=25d5f226885a35f1690a8b2dea2eb3283835592965dd170baaecaf1593973a74 (from https://pypi.org/simple/spams/) (requires-python:>=3), version: 2.6.2.5
+2021-04-07T01:26:14,733 Given no hashes to check 2 links for project 'spams': discarding no candidates
+2021-04-07T01:26:14,742 Collecting spams
+2021-04-07T01:26:14,742   Created temporary directory: /tmp/pip-unpack-i0v1wgc9
+2021-04-07T01:26:14,754   Using cached spams-2.6.2.5.tar.gz (1.6 MB)
+2021-04-07T01:26:14,895   Added spams from https://files.pythonhosted.org/packages/de/96/b85034a58651f4eb9713852bed92dc7b2c24b443ba2e5ea98aa211496e3b/spams-2.6.2.5.tar.gz#sha256=25d5f226885a35f1690a8b2dea2eb3283835592965dd170baaecaf1593973a74 to build tracker '/tmp/pip-req-tracker-2cntmgw9'
+2021-04-07T01:26:14,895     Running setup.py (path:/tmp/pip-install-l7esub9o/spams_f09708dddb4a477e8997bbb40d1c99f1/setup.py) egg_info for package spams
+2021-04-07T01:26:14,895     Created temporary directory: /tmp/pip-pip-egg-info-vtlr2ug1
+2021-04-07T01:26:14,895     Running command python setup.py egg_info
+2021-04-07T01:26:15,255     running egg_info
+2021-04-07T01:26:15,256     creating /tmp/pip-pip-egg-info-vtlr2ug1/spams.egg-info
+2021-04-07T01:26:15,256     writing /tmp/pip-pip-egg-info-vtlr2ug1/spams.egg-info/PKG-INFO
+2021-04-07T01:26:15,256     writing dependency_links to /tmp/pip-pip-egg-info-vtlr2ug1/spams.egg-info/dependency_links.txt
+2021-04-07T01:26:15,256     writing requirements to /tmp/pip-pip-egg-info-vtlr2ug1/spams.egg-info/requires.txt
+2021-04-07T01:26:15,256     writing top-level names to /tmp/pip-pip-egg-info-vtlr2ug1/spams.egg-info/top_level.txt
+2021-04-07T01:26:15,257     writing manifest file '/tmp/pip-pip-egg-info-vtlr2ug1/spams.egg-info/SOURCES.txt'
+2021-04-07T01:26:15,279     reading manifest file '/tmp/pip-pip-egg-info-vtlr2ug1/spams.egg-info/SOURCES.txt'
+2021-04-07T01:26:15,279     reading manifest template 'MANIFEST.in'
+2021-04-07T01:26:15,283     writing manifest file '/tmp/pip-pip-egg-info-vtlr2ug1/spams.egg-info/SOURCES.txt'
+2021-04-07T01:26:15,310   Source in /tmp/pip-install-l7esub9o/spams_f09708dddb4a477e8997bbb40d1c99f1 has version 2.6.2.5, which satisfies requirement spams from https://files.pythonhosted.org/packages/de/96/b85034a58651f4eb9713852bed92dc7b2c24b443ba2e5ea98aa211496e3b/spams-2.6.2.5.tar.gz#sha256=25d5f226885a35f1690a8b2dea2eb3283835592965dd170baaecaf1593973a74
+2021-04-07T01:26:15,310   Removed spams from https://files.pythonhosted.org/packages/de/96/b85034a58651f4eb9713852bed92dc7b2c24b443ba2e5ea98aa211496e3b/spams-2.6.2.5.tar.gz#sha256=25d5f226885a35f1690a8b2dea2eb3283835592965dd170baaecaf1593973a74 from build tracker '/tmp/pip-req-tracker-2cntmgw9'
+2021-04-07T01:26:15,317 Requirement already satisfied: Cython>=0.29 in /share/Data01/wupeng2/Anaconda/envs/py3.6/lib/python3.6/site-packages (from spams) (0.29.22)
+2021-04-07T01:26:15,318 Requirement already satisfied: numpy>=1.12 in /share/Data01/wupeng2/Anaconda/envs/py3.6/lib/python3.6/site-packages (from spams) (1.19.5)
+2021-04-07T01:26:15,319 Requirement already satisfied: Pillow>=6.0 in /share/Data01/wupeng2/Anaconda/envs/py3.6/lib/python3.6/site-packages (from spams) (8.2.0)
+2021-04-07T01:26:15,320 Requirement already satisfied: scipy>=1.0 in /share/Data01/wupeng2/Anaconda/envs/py3.6/lib/python3.6/site-packages (from spams) (1.5.4)
+2021-04-07T01:26:15,320 Requirement already satisfied: six>=1.12 in /share/Data01/wupeng2/Anaconda/envs/py3.6/lib/python3.6/site-packages (from spams) (1.15.0)
+2021-04-07T01:26:15,327 Created temporary directory: /tmp/pip-unpack-8zapi9nf
+2021-04-07T01:26:15,328 Building wheels for collected packages: spams
+2021-04-07T01:26:15,329   Created temporary directory: /tmp/pip-wheel-n70ll0vp
+2021-04-07T01:26:15,329   Destination directory: /tmp/pip-wheel-n70ll0vp
+2021-04-07T01:26:15,329   Running command /share/Data01/wupeng2/Anaconda/envs/py3.6/bin/python -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-l7esub9o/spams_f09708dddb4a477e8997bbb40d1c99f1/setup.py'"'"'; __file__='"'"'/tmp/pip-install-l7esub9o/spams_f09708dddb4a477e8997bbb40d1c99f1/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /tmp/pip-wheel-n70ll0vp
+2021-04-07T01:26:15,720   running bdist_wheel
+2021-04-07T01:26:15,721   running build
+2021-04-07T01:26:15,721   running build_py
+2021-04-07T01:26:15,739   creating build
+2021-04-07T01:26:15,740   creating build/lib.linux-x86_64-3.6
+2021-04-07T01:26:15,740   creating build/lib.linux-x86_64-3.6/myscipy_rand
+2021-04-07T01:26:15,740   copying myscipy_rand/__init__.py -> build/lib.linux-x86_64-3.6/myscipy_rand
+2021-04-07T01:26:15,740   copying myscipy_rand/myscipy_rand.py -> build/lib.linux-x86_64-3.6/myscipy_rand
+2021-04-07T01:26:15,740   creating build/lib.linux-x86_64-3.6/spams_wrap
+2021-04-07T01:26:15,741   copying spams_wrap/spams_wrap.py -> build/lib.linux-x86_64-3.6/spams_wrap
+2021-04-07T01:26:15,741   copying spams_wrap/__init__.py -> build/lib.linux-x86_64-3.6/spams_wrap
+2021-04-07T01:26:15,741   creating build/lib.linux-x86_64-3.6/spams
+2021-04-07T01:26:15,741   copying spams/spams.py -> build/lib.linux-x86_64-3.6/spams
+2021-04-07T01:26:15,741   copying spams/__init__.py -> build/lib.linux-x86_64-3.6/spams
+2021-04-07T01:26:15,741   running egg_info
+2021-04-07T01:26:15,746   writing spams.egg-info/PKG-INFO
+2021-04-07T01:26:15,746   writing dependency_links to spams.egg-info/dependency_links.txt
+2021-04-07T01:26:15,746   writing requirements to spams.egg-info/requires.txt
+2021-04-07T01:26:15,746   writing top-level names to spams.egg-info/top_level.txt
+2021-04-07T01:26:15,748   reading manifest file 'spams.egg-info/SOURCES.txt'
+2021-04-07T01:26:15,748   reading manifest template 'MANIFEST.in'
+2021-04-07T01:26:15,753   writing manifest file 'spams.egg-info/SOURCES.txt'
+2021-04-07T01:26:15,754   copying spams_wrap/spams.h -> build/lib.linux-x86_64-3.6/spams_wrap
+2021-04-07T01:26:15,755   copying spams_wrap/spams_wrap.cpp -> build/lib.linux-x86_64-3.6/spams_wrap
+2021-04-07T01:26:15,756   creating build/lib.linux-x86_64-3.6/spams_wrap/decomp
+2021-04-07T01:26:15,756   copying spams_wrap/decomp/decomp.h -> build/lib.linux-x86_64-3.6/spams_wrap/decomp
+2021-04-07T01:26:15,756   copying spams_wrap/decomp/lsqsplx.h -> build/lib.linux-x86_64-3.6/spams_wrap/decomp
+2021-04-07T01:26:15,756   copying spams_wrap/decomp/projsplx.h -> build/lib.linux-x86_64-3.6/spams_wrap/decomp
+2021-04-07T01:26:15,756   creating build/lib.linux-x86_64-3.6/spams_wrap/dictLearn
+2021-04-07T01:26:15,756   copying spams_wrap/dictLearn/arch.h -> build/lib.linux-x86_64-3.6/spams_wrap/dictLearn
+2021-04-07T01:26:15,756   copying spams_wrap/dictLearn/dicts.h -> build/lib.linux-x86_64-3.6/spams_wrap/dictLearn
+2021-04-07T01:26:15,757   creating build/lib.linux-x86_64-3.6/spams_wrap/linalg
+2021-04-07T01:26:15,757   copying spams_wrap/linalg/cblas_alt_template.h -> build/lib.linux-x86_64-3.6/spams_wrap/linalg
+2021-04-07T01:26:15,757   copying spams_wrap/linalg/cblas_defvar.h -> build/lib.linux-x86_64-3.6/spams_wrap/linalg
+2021-04-07T01:26:15,757   copying spams_wrap/linalg/cblas_template.h -> build/lib.linux-x86_64-3.6/spams_wrap/linalg
+2021-04-07T01:26:15,757   copying spams_wrap/linalg/linalg.h -> build/lib.linux-x86_64-3.6/spams_wrap/linalg
+2021-04-07T01:26:15,757   copying spams_wrap/linalg/list.h -> build/lib.linux-x86_64-3.6/spams_wrap/linalg
+2021-04-07T01:26:15,757   copying spams_wrap/linalg/mexutils.h -> build/lib.linux-x86_64-3.6/spams_wrap/linalg
+2021-04-07T01:26:15,758   copying spams_wrap/linalg/misc.h -> build/lib.linux-x86_64-3.6/spams_wrap/linalg
+2021-04-07T01:26:15,758   copying spams_wrap/linalg/utils.h -> build/lib.linux-x86_64-3.6/spams_wrap/linalg
+2021-04-07T01:26:15,758   creating build/lib.linux-x86_64-3.6/spams_wrap/prox
+2021-04-07T01:26:15,758   copying spams_wrap/prox/fista.h -> build/lib.linux-x86_64-3.6/spams_wrap/prox
+2021-04-07T01:26:15,758   copying spams_wrap/prox/groups-graph.h -> build/lib.linux-x86_64-3.6/spams_wrap/prox
+2021-04-07T01:26:15,758   copying spams_wrap/prox/mexgrouputils.h -> build/lib.linux-x86_64-3.6/spams_wrap/prox
+2021-04-07T01:26:15,759   copying spams_wrap/prox/project.h -> build/lib.linux-x86_64-3.6/spams_wrap/prox
+2021-04-07T01:26:15,759   copying spams_wrap/prox/surrogate.h -> build/lib.linux-x86_64-3.6/spams_wrap/prox
+2021-04-07T01:26:15,759   copying spams_wrap/prox/svm.h -> build/lib.linux-x86_64-3.6/spams_wrap/prox
+2021-04-07T01:26:15,759   running build_ext
+2021-04-07T01:26:16,029   cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+2021-04-07T01:26:16,174   In file included from /share/Data01/wupeng2/Anaconda/envs/py3.6/lib/python3.6/site-packages/numpy/core/include/numpy/ndarraytypes.h:1822:0,
+2021-04-07T01:26:16,174                    from /share/Data01/wupeng2/Anaconda/envs/py3.6/lib/python3.6/site-packages/numpy/core/include/numpy/ndarrayobject.h:12,
+2021-04-07T01:26:16,175                    from /share/Data01/wupeng2/Anaconda/envs/py3.6/lib/python3.6/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+2021-04-07T01:26:16,175                    from spams_wrap/spams.h:458,
+2021-04-07T01:26:16,175                    from spams_wrap/spams_wrap.cpp:3130:
+2021-04-07T01:26:16,175   /share/Data01/wupeng2/Anaconda/envs/py3.6/lib/python3.6/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2: warning: #warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+2021-04-07T01:26:16,175    #warning "Using deprecated NumPy API, disable it with " \
+2021-04-07T01:26:16,175     ^~~~~~~
+2021-04-07T01:26:16,622   In file included from spams_wrap/spams_wrap.cpp:3130:0:
+2021-04-07T01:26:16,622   spams_wrap/spams.h:35:57: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,623    template<typename T> void _sort(Vector<T> *v,bool mode) throw(const char *){
+2021-04-07T01:26:16,623                                                            ^~~~~
+2021-04-07T01:26:16,623   spams_wrap/spams.h:40:61: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,623    template<typename T> void _AAt(SpMatrix<T> *A,Matrix<T> *B) throw(const char *) {
+2021-04-07T01:26:16,623                                                                ^~~~~
+2021-04-07T01:26:16,623   spams_wrap/spams.h:47:76: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,623    template<typename T> void _XAt(SpMatrix<T> *A,Matrix<T> *X,Matrix<T> *XAt) throw(const char *) {
+2021-04-07T01:26:16,623                                                                               ^~~~~
+2021-04-07T01:26:16,624   spams_wrap/spams.h:54:29: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,624          const T a, const T b) throw(const char *) {
+2021-04-07T01:26:16,624                                ^~~~~
+2021-04-07T01:26:16,624   spams_wrap/spams.h:76:71: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,624    template<typename T> void _applyBayerPattern(Vector<T> *v,int offset) throw(const char *){
+2021-04-07T01:26:16,624                                                                          ^~~~~
+2021-04-07T01:26:16,624   spams_wrap/spams.h:80:116: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,624    template<typename T> void _conjugateGradient(Matrix<T> *A,Vector<T> *b,Vector<T> *x,const T tol,const int itermax) throw(const char *){
+2021-04-07T01:26:16,625                                                                                                                       ^~~~~
+2021-04-07T01:26:16,625   In file included from spams_wrap/spams_wrap.cpp:3130:0:
+2021-04-07T01:26:16,625   spams_wrap/spams.h:101:29: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,625          const int numThreads) throw(const char *) {
+2021-04-07T01:26:16,625                                ^~~~~
+2021-04-07T01:26:16,625   spams_wrap/spams.h:112:1: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,625    throw(const char *)
+2021-04-07T01:26:16,625    ^~~~~
+2021-04-07T01:26:16,625   spams_wrap/spams.h:150:1: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,625    throw(const char *)
+2021-04-07T01:26:16,625    ^~~~~
+2021-04-07T01:26:16,626   spams_wrap/spams.h:194:1: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,626    throw(const char *)
+2021-04-07T01:26:16,626    ^~~~~
+2021-04-07T01:26:16,626   spams_wrap/spams.h:221:1: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,626    throw(const char *)
+2021-04-07T01:26:16,626    ^~~~~
+2021-04-07T01:26:16,626   spams_wrap/spams.h:251:196: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,626    SpMatrix<T> *_omp(Matrix<T> *X,Matrix<T> *D,Matrix<T> **path,bool return_reg_path,bool given_L,Vector<int>*L,bool given_eps,Vector<T>*eps,bool given_Lambda,Vector<T>*Lambda,const int numThreads) throw(const char *){
+2021-04-07T01:26:16,627                                                                                                                                                                                                       ^~~~~
+2021-04-07T01:26:16,627   spams_wrap/spams.h:296:216: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,627    SpMatrix<T> *_ompMask(Matrix<T> *X,Matrix<T> *D,Matrix<bool> *B,Matrix<T> **path,bool return_reg_path,bool given_L,Vector<int>*L,bool given_eps,Vector<T>*eps,bool given_Lambda,Vector<T>*Lambda,const int numThreads) throw(const char *){
+2021-04-07T01:26:16,627                                                                                                                                                                                                                           ^~~~~
+2021-04-07T01:26:16,627   spams_wrap/spams.h:345:130: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,627    SpMatrix<T> *_cd(Matrix<T> *X,Matrix<T> *D,SpMatrix<T>*alpha,T lambda1, constraint_type mode, int itermax, T tol,int numThreads) throw(const char *){
+2021-04-07T01:26:16,627                                                                                                                                     ^~~~~
+2021-04-07T01:26:16,627   spams_wrap/spams.h:363:97: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,628    SpMatrix<T> *_somp(Matrix<T> *X,Matrix<T> *D,Vector<int> *groups,int LL, T eps, int numThreads) throw(const char *){
+2021-04-07T01:26:16,628                                                                                                    ^~~~~
+2021-04-07T01:26:16,628   spams_wrap/spams.h:419:144: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,628    void _l1L2BCD(Matrix<T> *X,Matrix<T> *D,Matrix<T>*alpha0,Vector<int> *groups,T lambda1, constraint_type mode,int itermax,T tol,int numThreads) throw(const char *){
+2021-04-07T01:26:16,628                                                                                                                                                   ^~~~~
+2021-04-07T01:26:16,631   In file included from spams_wrap/spams_wrap.cpp:3130:0:
+2021-04-07T01:26:16,631   spams_wrap/spams.h:500:1: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,631    throw(const char *)
+2021-04-07T01:26:16,631    ^~~~~
+2021-04-07T01:26:16,631   In file included from spams_wrap/spams_wrap.cpp:3130:0:
+2021-04-07T01:26:16,631   spams_wrap/spams.h:652:1: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,631    throw(const char *)
+2021-04-07T01:26:16,632    ^~~~~
+2021-04-07T01:26:16,633   spams_wrap/spams.h:820:1: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,633    throw(const char *)
+2021-04-07T01:26:16,633    ^~~~~
+2021-04-07T01:26:16,634   spams_wrap/spams.h:958:1: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,634    throw(const char *)
+2021-04-07T01:26:16,634    ^~~~~
+2021-04-07T01:26:16,634   spams_wrap/spams.h:1018:1: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,634    throw(const char *)
+2021-04-07T01:26:16,634    ^~~~~
+2021-04-07T01:26:16,635   spams_wrap/spams.h:1097:1: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,635    throw(const char *)
+2021-04-07T01:26:16,635    ^~~~~
+2021-04-07T01:26:16,635   spams_wrap/spams.h:1187:10: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,635          )  throw(const char *){
+2021-04-07T01:26:16,635             ^~~~~
+2021-04-07T01:26:16,636   spams_wrap/spams.h:1342:189: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,636    Matrix<T> *_archetypalAnalysisInit(Matrix<T>* X, Matrix<T>* Z0, SpMatrix<T>** spA, SpMatrix<T>** spB, bool robust, T epsilon, bool computeXtX, int stepsFISTA, int stepsAS, int numThreads) throw(const char *)  {
+2021-04-07T01:26:16,636                                                                                                                                                                                                ^~~~~
+2021-04-07T01:26:16,636   spams_wrap/spams.h:1351:194: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,636    Matrix<T> *_archetypalAnalysis(Matrix<T>* X, int p, SpMatrix<T>** spA, SpMatrix<T>** spB, bool robust, T epsilon, bool computeXtX, int stepsFISTA, int stepsAS, bool randominit, int numThreads) throw(const char *) {
+2021-04-07T01:26:16,636                                                                                                                                                                                                     ^~~~~
+2021-04-07T01:26:16,636   spams_wrap/spams.h:1360:92: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,637      SpMatrix<T> *_decompSimplex(Matrix<T>* X, Matrix<T>* Z, bool computeXtX, int numThreads) throw(const char*){
+2021-04-07T01:26:16,637                                                                                               ^~~~~
+2021-04-07T01:26:16,637   spams_wrap/spams.h:1380:74: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,637    void _im2col_sliding(Matrix<T>  *A,Matrix<T>  *B,int m, int n,bool RGB)  throw(const char *){
+2021-04-07T01:26:16,637                                                                             ^~~~~
+2021-04-07T01:26:16,651   In file included from spams_wrap/spams_wrap.cpp:3131:0:
+2021-04-07T01:26:16,651   spams_wrap/prox/groups-graph.h:202:74: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,651    std::vector<StructNodeElem<T> *> *_groupStructOfString(const char *data) throw(const char *){
+2021-04-07T01:26:16,652                                                                             ^~~~~
+2021-04-07T01:26:16,652   spams_wrap/prox/groups-graph.h:227:70: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,652    std::vector<StructNodeElem<T> *> *_readGroupStruct(const char *file) throw(const char *){
+2021-04-07T01:26:16,652                                                                         ^~~~~
+2021-04-07T01:26:16,652   spams_wrap/prox/groups-graph.h:253:70: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,652    std::vector<StructNodeElem<T> *> *_simpleGroupTree(int *degr, int n) throw(const char *){
+2021-04-07T01:26:16,652                                                                         ^~~~~
+2021-04-07T01:26:16,657   In file included from spams_wrap/spams_wrap.cpp:3131:0:
+2021-04-07T01:26:16,657   spams_wrap/prox/groups-graph.h:483:129: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,657    Vector<T> *_graphOfGroupStruct(std::vector<StructNodeElem<T> *> *gstruct,SpMatrix<bool> **pgroups,SpMatrix<bool> **pgroups_var) throw(const char *) {
+2021-04-07T01:26:16,657                                                                                                                                    ^~~~~
+2021-04-07T01:26:16,657   spams_wrap/prox/groups-graph.h:568:197: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:26:16,657    int _treeOfGroupStruct(std::vector<StructNodeElem<T> *> *gstruct,int **pperm,int *pnb_vars,Vector<T> **peta_g,SpMatrix<bool> **pgroups,Vector<int> **pown_variables,Vector<int> **pN_own_variables) throw(const char *){
+2021-04-07T01:26:16,658                                                                                                                                                                                                        ^~~~~
+2021-04-07T01:26:17,391   In file included from spams_wrap/linalg/utils.h:126:0,
+2021-04-07T01:26:17,391                    from spams_wrap/decomp/decomp.h:33,
+2021-04-07T01:26:17,391                    from spams_wrap/dictLearn/dicts.h:35,
+2021-04-07T01:26:17,391                    from spams_wrap/spams.h:25,
+2021-04-07T01:26:17,391                    from spams_wrap/spams_wrap.cpp:3130:
+2021-04-07T01:26:17,391   spams_wrap/linalg/linalg.h: In instantiation of ‘void SpMatrix<T>::mult(const SpVector<T>&, Vector<T>&, T, T) const [with T = bool]’:
+2021-04-07T01:26:17,391   spams_wrap/spams_wrap.cpp:25830:1:   required from here
+2021-04-07T01:26:17,391   spams_wrap/linalg/linalg.h:4370:21: warning: ‘*’ in boolean context, suggest ‘&&’ instead [-Wint-in-bool-context]
+2021-04-07T01:26:17,391          T val = alpha * x.v(i);
+2021-04-07T01:26:17,391   spams_wrap/linalg/linalg.h: In instantiation of ‘void SpMatrix<T>::mult(const Vector<T>&, Vector<T>&, T, T) const [with T = bool]’:
+2021-04-07T01:26:17,392   spams_wrap/spams_wrap.cpp:25830:1:   required from here
+2021-04-07T01:26:17,392   spams_wrap/linalg/linalg.h:4349:18: warning: ‘*’ in boolean context, suggest ‘&&’ instead [-Wint-in-bool-context]
+2021-04-07T01:26:17,392          T sca=alpha* prX[i];
+2021-04-07T01:26:17,392                ~~~~~^~~~~~
+2021-04-07T01:26:17,394   spams_wrap/linalg/linalg.h: In instantiation of ‘void Matrix<T>::mult(const SpVector<T>&, Vector<T>&, T, T) const [with T = bool]’:
+2021-04-07T01:26:17,394   spams_wrap/spams_wrap.cpp:25830:1:   required from here
+2021-04-07T01:26:17,394   spams_wrap/linalg/linalg.h:1812:28: warning: ‘*’ in boolean context, suggest ‘&&’ instead [-Wint-in-bool-context]
+2021-04-07T01:26:17,394             cblas_axpy<T>(_m,a*x._v[i],_X+x._r[i]*_m,1,b._X,1);
+2021-04-07T01:26:17,395                              ~^~~~~~
+2021-04-07T01:26:17,425   spams_wrap/linalg/linalg.h: In instantiation of ‘void Matrix<T>::multTrans(const SpVector<T>&, Vector<T>&, T, T) const [with T = bool]’:
+2021-04-07T01:26:17,425   spams_wrap/linalg/linalg.h:4408:13:   required from ‘void SpMatrix<T>::mult(const Matrix<T>&, Matrix<T>&, bool, bool, T, T) const [with T = bool]’
+2021-04-07T01:26:17,425   spams_wrap/spams_wrap.cpp:25830:1:   required from here
+2021-04-07T01:26:17,426   spams_wrap/linalg/linalg.h:1766:25: warning: ‘*’ in boolean context, suggest ‘&&’ instead [-Wint-in-bool-context]
+2021-04-07T01:26:17,426             b._X[i] = alpha*col.dot(x);
+2021-04-07T01:26:17,426   spams_wrap/linalg/linalg.h: In instantiation of ‘void Matrix<T>::rank1Update(const Vector<T>&, const SpVector<T>&, T) [with T = bool]’:
+2021-04-07T01:26:17,426   spams_wrap/linalg/linalg.h:1902:13:   required from ‘void Matrix<T>::mult(const SpMatrix<T>&, Matrix<T>&, bool, bool, T, T) const [with T = bool]’
+2021-04-07T01:26:17,426   spams_wrap/spams_wrap.cpp:25830:1:   required from here
+2021-04-07T01:26:17,427   spams_wrap/linalg/linalg.h:2464:23: warning: ‘*’ in boolean context, suggest ‘&&’ instead [-Wint-in-bool-context]
+2021-04-07T01:26:17,427          Xi.add(vec1,v[i]*alpha);
+2021-04-07T01:26:17,427                      ~~~~^~~~~~
+2021-04-07T01:26:39,317   In file included from spams_wrap/dictLearn/dicts.h:35:0,
+2021-04-07T01:26:39,318                    from spams_wrap/spams.h:25,
+2021-04-07T01:26:39,318                    from spams_wrap/spams_wrap.cpp:3130:
+2021-04-07T01:26:39,318   spams_wrap/decomp/decomp.h: In function ‘void coreORMP(Vector<T>&, Vector<T>&, Vector<T>&, Matrix<T>&, Matrix<T>&, Matrix<T>&, Matrix<T>&, Vector<T>&, const AbstractMatrix<T>&, Vector<int>&, Vector<T>&, T&, const T*, const int*, const T*, T*) [with T = double]’:
+2021-04-07T01:26:39,318   spams_wrap/decomp/decomp.h:635:13: warning: ‘void* memset(void*, int, size_t)’: specified size between 18446744056529682432 and 18446744073709551608 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+2021-04-07T01:26:39,318          memset(path+(L-1)*K,0,L*sizeof(T));
+2021-04-07T01:26:39,319          ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2021-04-07T01:26:39,516   spams_wrap/decomp/decomp.h: In function ‘void coreORMP(Vector<T>&, Vector<T>&, Vector<T>&, Matrix<T>&, Matrix<T>&, Matrix<T>&, Matrix<T>&, Vector<T>&, const AbstractMatrix<T>&, Vector<int>&, Vector<T>&, T&, const T*, const int*, const T*, T*) [with T = float]’:
+2021-04-07T01:26:39,517   spams_wrap/decomp/decomp.h:635:13: warning: ‘void* memset(void*, int, size_t)’: specified size between 18446744065119617024 and 18446744073709551612 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+2021-04-07T01:26:39,517          memset(path+(L-1)*K,0,L*sizeof(T));
+2021-04-07T01:26:39,517          ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2021-04-07T01:27:10,991   /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/ld: cannot find -lblas
+2021-04-07T01:27:10,992   /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/ld: cannot find -llapack
+2021-04-07T01:27:10,992   collect2: error: ld returned 1 exit status
+2021-04-07T01:27:10,993   error: Command "g++ -pthread -shared -B /share/Data01/wupeng2/Anaconda/envs/py3.6/compiler_compat -L/share/Data01/wupeng2/Anaconda/envs/py3.6/lib -Wl,-rpath=/share/Data01/wupeng2/Anaconda/envs/py3.6/lib -Wl,--no-as-needed -Wl,--sysroot=/ build/temp.linux-x86_64-3.6/spams_wrap/spams_wrap.o -L/share/Data01/wupeng2/Anaconda/envs/py3.6/lib -L/usr/local/lib64 -L/usr/local/lib -L/usr/lib64 -L/usr/lib -L/usr/lib/ -lstdc++ -lblas -llapack -o build/lib.linux-x86_64-3.6/_spams_wrap.cpython-36m-x86_64-linux-gnu.so -fopenmp" failed with exit status 1
+2021-04-07T01:27:11,108   ERROR: Failed building wheel for spams
+2021-04-07T01:27:11,109   Running setup.py clean for spams
+2021-04-07T01:27:11,109   Running command /share/Data01/wupeng2/Anaconda/envs/py3.6/bin/python -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-l7esub9o/spams_f09708dddb4a477e8997bbb40d1c99f1/setup.py'"'"'; __file__='"'"'/tmp/pip-install-l7esub9o/spams_f09708dddb4a477e8997bbb40d1c99f1/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' clean --all
+2021-04-07T01:27:11,518   running clean
+2021-04-07T01:27:11,518   removing 'build/temp.linux-x86_64-3.6' (and everything under it)
+2021-04-07T01:27:11,523   removing 'build/lib.linux-x86_64-3.6' (and everything under it)
+2021-04-07T01:27:11,525   'build/bdist.linux-x86_64' does not exist -- can't clean it
+2021-04-07T01:27:11,525   'build/scripts-3.6' does not exist -- can't clean it
+2021-04-07T01:27:11,525   removing 'build'
+2021-04-07T01:27:11,547 Failed to build spams
+2021-04-07T01:27:11,769 Installing collected packages: spams
+2021-04-07T01:27:11,770   Created temporary directory: /tmp/pip-record-itm9vbi8
+2021-04-07T01:27:11,770     Running command /share/Data01/wupeng2/Anaconda/envs/py3.6/bin/python -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-l7esub9o/spams_f09708dddb4a477e8997bbb40d1c99f1/setup.py'"'"'; __file__='"'"'/tmp/pip-install-l7esub9o/spams_f09708dddb4a477e8997bbb40d1c99f1/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-itm9vbi8/install-record.txt --single-version-externally-managed --compile --install-headers /share/Data01/wupeng2/Anaconda/envs/py3.6/include/python3.6m/spams
+2021-04-07T01:27:12,131     running install
+2021-04-07T01:27:12,132     running build
+2021-04-07T01:27:12,132     running build_py
+2021-04-07T01:27:12,153     creating build
+2021-04-07T01:27:12,153     creating build/lib.linux-x86_64-3.6
+2021-04-07T01:27:12,153     creating build/lib.linux-x86_64-3.6/myscipy_rand
+2021-04-07T01:27:12,153     copying myscipy_rand/__init__.py -> build/lib.linux-x86_64-3.6/myscipy_rand
+2021-04-07T01:27:12,153     copying myscipy_rand/myscipy_rand.py -> build/lib.linux-x86_64-3.6/myscipy_rand
+2021-04-07T01:27:12,154     creating build/lib.linux-x86_64-3.6/spams_wrap
+2021-04-07T01:27:12,154     copying spams_wrap/spams_wrap.py -> build/lib.linux-x86_64-3.6/spams_wrap
+2021-04-07T01:27:12,154     copying spams_wrap/__init__.py -> build/lib.linux-x86_64-3.6/spams_wrap
+2021-04-07T01:27:12,154     creating build/lib.linux-x86_64-3.6/spams
+2021-04-07T01:27:12,154     copying spams/spams.py -> build/lib.linux-x86_64-3.6/spams
+2021-04-07T01:27:12,154     copying spams/__init__.py -> build/lib.linux-x86_64-3.6/spams
+2021-04-07T01:27:12,155     running egg_info
+2021-04-07T01:27:12,159     writing spams.egg-info/PKG-INFO
+2021-04-07T01:27:12,160     writing dependency_links to spams.egg-info/dependency_links.txt
+2021-04-07T01:27:12,160     writing requirements to spams.egg-info/requires.txt
+2021-04-07T01:27:12,160     writing top-level names to spams.egg-info/top_level.txt
+2021-04-07T01:27:12,161     reading manifest file 'spams.egg-info/SOURCES.txt'
+2021-04-07T01:27:12,162     reading manifest template 'MANIFEST.in'
+2021-04-07T01:27:12,167     writing manifest file 'spams.egg-info/SOURCES.txt'
+2021-04-07T01:27:12,168     copying spams_wrap/spams.h -> build/lib.linux-x86_64-3.6/spams_wrap
+2021-04-07T01:27:12,169     copying spams_wrap/spams_wrap.cpp -> build/lib.linux-x86_64-3.6/spams_wrap
+2021-04-07T01:27:12,170     creating build/lib.linux-x86_64-3.6/spams_wrap/decomp
+2021-04-07T01:27:12,170     copying spams_wrap/decomp/decomp.h -> build/lib.linux-x86_64-3.6/spams_wrap/decomp
+2021-04-07T01:27:12,170     copying spams_wrap/decomp/lsqsplx.h -> build/lib.linux-x86_64-3.6/spams_wrap/decomp
+2021-04-07T01:27:12,170     copying spams_wrap/decomp/projsplx.h -> build/lib.linux-x86_64-3.6/spams_wrap/decomp
+2021-04-07T01:27:12,170     creating build/lib.linux-x86_64-3.6/spams_wrap/dictLearn
+2021-04-07T01:27:12,170     copying spams_wrap/dictLearn/arch.h -> build/lib.linux-x86_64-3.6/spams_wrap/dictLearn
+2021-04-07T01:27:12,170     copying spams_wrap/dictLearn/dicts.h -> build/lib.linux-x86_64-3.6/spams_wrap/dictLearn
+2021-04-07T01:27:12,170     creating build/lib.linux-x86_64-3.6/spams_wrap/linalg
+2021-04-07T01:27:12,171     copying spams_wrap/linalg/cblas_alt_template.h -> build/lib.linux-x86_64-3.6/spams_wrap/linalg
+2021-04-07T01:27:12,171     copying spams_wrap/linalg/cblas_defvar.h -> build/lib.linux-x86_64-3.6/spams_wrap/linalg
+2021-04-07T01:27:12,171     copying spams_wrap/linalg/cblas_template.h -> build/lib.linux-x86_64-3.6/spams_wrap/linalg
+2021-04-07T01:27:12,171     copying spams_wrap/linalg/linalg.h -> build/lib.linux-x86_64-3.6/spams_wrap/linalg
+2021-04-07T01:27:12,171     copying spams_wrap/linalg/list.h -> build/lib.linux-x86_64-3.6/spams_wrap/linalg
+2021-04-07T01:27:12,172     copying spams_wrap/linalg/mexutils.h -> build/lib.linux-x86_64-3.6/spams_wrap/linalg
+2021-04-07T01:27:12,172     copying spams_wrap/linalg/misc.h -> build/lib.linux-x86_64-3.6/spams_wrap/linalg
+2021-04-07T01:27:12,172     copying spams_wrap/linalg/utils.h -> build/lib.linux-x86_64-3.6/spams_wrap/linalg
+2021-04-07T01:27:12,172     creating build/lib.linux-x86_64-3.6/spams_wrap/prox
+2021-04-07T01:27:12,172     copying spams_wrap/prox/fista.h -> build/lib.linux-x86_64-3.6/spams_wrap/prox
+2021-04-07T01:27:12,172     copying spams_wrap/prox/groups-graph.h -> build/lib.linux-x86_64-3.6/spams_wrap/prox
+2021-04-07T01:27:12,172     copying spams_wrap/prox/mexgrouputils.h -> build/lib.linux-x86_64-3.6/spams_wrap/prox
+2021-04-07T01:27:12,172     copying spams_wrap/prox/project.h -> build/lib.linux-x86_64-3.6/spams_wrap/prox
+2021-04-07T01:27:12,173     copying spams_wrap/prox/surrogate.h -> build/lib.linux-x86_64-3.6/spams_wrap/prox
+2021-04-07T01:27:12,173     copying spams_wrap/prox/svm.h -> build/lib.linux-x86_64-3.6/spams_wrap/prox
+2021-04-07T01:27:12,173     running build_ext
+2021-04-07T01:27:12,477     cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+2021-04-07T01:27:12,631     In file included from /share/Data01/wupeng2/Anaconda/envs/py3.6/lib/python3.6/site-packages/numpy/core/include/numpy/ndarraytypes.h:1822:0,
+2021-04-07T01:27:12,631                      from /share/Data01/wupeng2/Anaconda/envs/py3.6/lib/python3.6/site-packages/numpy/core/include/numpy/ndarrayobject.h:12,
+2021-04-07T01:27:12,632                      from /share/Data01/wupeng2/Anaconda/envs/py3.6/lib/python3.6/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+2021-04-07T01:27:12,632                      from spams_wrap/spams.h:458,
+2021-04-07T01:27:12,632                      from spams_wrap/spams_wrap.cpp:3130:
+2021-04-07T01:27:12,632     /share/Data01/wupeng2/Anaconda/envs/py3.6/lib/python3.6/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2: warning: #warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+2021-04-07T01:27:12,632      #warning "Using deprecated NumPy API, disable it with " \
+2021-04-07T01:27:12,633       ^~~~~~~
+2021-04-07T01:27:13,000     In file included from spams_wrap/spams_wrap.cpp:3130:0:
+2021-04-07T01:27:13,000     spams_wrap/spams.h:35:57: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,000      template<typename T> void _sort(Vector<T> *v,bool mode) throw(const char *){
+2021-04-07T01:27:13,000                                                              ^~~~~
+2021-04-07T01:27:13,000     spams_wrap/spams.h:40:61: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,001      template<typename T> void _AAt(SpMatrix<T> *A,Matrix<T> *B) throw(const char *) {
+2021-04-07T01:27:13,001                                                                  ^~~~~
+2021-04-07T01:27:13,001     spams_wrap/spams.h:47:76: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,001      template<typename T> void _XAt(SpMatrix<T> *A,Matrix<T> *X,Matrix<T> *XAt) throw(const char *) {
+2021-04-07T01:27:13,001                                                                                 ^~~~~
+2021-04-07T01:27:13,001     spams_wrap/spams.h:54:29: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,002            const T a, const T b) throw(const char *) {
+2021-04-07T01:27:13,002                                  ^~~~~
+2021-04-07T01:27:13,002     spams_wrap/spams.h:76:71: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,002      template<typename T> void _applyBayerPattern(Vector<T> *v,int offset) throw(const char *){
+2021-04-07T01:27:13,002                                                                            ^~~~~
+2021-04-07T01:27:13,002     spams_wrap/spams.h:80:116: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,002      template<typename T> void _conjugateGradient(Matrix<T> *A,Vector<T> *b,Vector<T> *x,const T tol,const int itermax) throw(const char *){
+2021-04-07T01:27:13,002                                                                                                                         ^~~~~
+2021-04-07T01:27:13,002     In file included from spams_wrap/spams_wrap.cpp:3130:0:
+2021-04-07T01:27:13,003     spams_wrap/spams.h:101:29: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,003            const int numThreads) throw(const char *) {
+2021-04-07T01:27:13,003                                  ^~~~~
+2021-04-07T01:27:13,003     spams_wrap/spams.h:112:1: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,003      throw(const char *)
+2021-04-07T01:27:13,003      ^~~~~
+2021-04-07T01:27:13,003     spams_wrap/spams.h:150:1: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,003      throw(const char *)
+2021-04-07T01:27:13,003      ^~~~~
+2021-04-07T01:27:13,004     spams_wrap/spams.h:194:1: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,004      throw(const char *)
+2021-04-07T01:27:13,004      ^~~~~
+2021-04-07T01:27:13,004     spams_wrap/spams.h:221:1: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,004      throw(const char *)
+2021-04-07T01:27:13,004      ^~~~~
+2021-04-07T01:27:13,005     spams_wrap/spams.h:251:196: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,005      SpMatrix<T> *_omp(Matrix<T> *X,Matrix<T> *D,Matrix<T> **path,bool return_reg_path,bool given_L,Vector<int>*L,bool given_eps,Vector<T>*eps,bool given_Lambda,Vector<T>*Lambda,const int numThreads) throw(const char *){
+2021-04-07T01:27:13,005                                                                                                                                                                                                         ^~~~~
+2021-04-07T01:27:13,005     spams_wrap/spams.h:296:216: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,005      SpMatrix<T> *_ompMask(Matrix<T> *X,Matrix<T> *D,Matrix<bool> *B,Matrix<T> **path,bool return_reg_path,bool given_L,Vector<int>*L,bool given_eps,Vector<T>*eps,bool given_Lambda,Vector<T>*Lambda,const int numThreads) throw(const char *){
+2021-04-07T01:27:13,005                                                                                                                                                                                                                             ^~~~~
+2021-04-07T01:27:13,005     spams_wrap/spams.h:345:130: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,005      SpMatrix<T> *_cd(Matrix<T> *X,Matrix<T> *D,SpMatrix<T>*alpha,T lambda1, constraint_type mode, int itermax, T tol,int numThreads) throw(const char *){
+2021-04-07T01:27:13,005                                                                                                                                       ^~~~~
+2021-04-07T01:27:13,006     spams_wrap/spams.h:363:97: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,006      SpMatrix<T> *_somp(Matrix<T> *X,Matrix<T> *D,Vector<int> *groups,int LL, T eps, int numThreads) throw(const char *){
+2021-04-07T01:27:13,006                                                                                                      ^~~~~
+2021-04-07T01:27:13,006     spams_wrap/spams.h:419:144: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,006      void _l1L2BCD(Matrix<T> *X,Matrix<T> *D,Matrix<T>*alpha0,Vector<int> *groups,T lambda1, constraint_type mode,int itermax,T tol,int numThreads) throw(const char *){
+2021-04-07T01:27:13,006                                                                                                                                                     ^~~~~
+2021-04-07T01:27:13,007     In file included from spams_wrap/spams_wrap.cpp:3130:0:
+2021-04-07T01:27:13,007     spams_wrap/spams.h:500:1: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,007      throw(const char *)
+2021-04-07T01:27:13,007      ^~~~~
+2021-04-07T01:27:13,007     In file included from spams_wrap/spams_wrap.cpp:3130:0:
+2021-04-07T01:27:13,007     spams_wrap/spams.h:652:1: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,007      throw(const char *)
+2021-04-07T01:27:13,008      ^~~~~
+2021-04-07T01:27:13,009     spams_wrap/spams.h:820:1: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,009      throw(const char *)
+2021-04-07T01:27:13,009      ^~~~~
+2021-04-07T01:27:13,009     spams_wrap/spams.h:958:1: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,010      throw(const char *)
+2021-04-07T01:27:13,010      ^~~~~
+2021-04-07T01:27:13,010     spams_wrap/spams.h:1018:1: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,010      throw(const char *)
+2021-04-07T01:27:13,010      ^~~~~
+2021-04-07T01:27:13,010     spams_wrap/spams.h:1097:1: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,010      throw(const char *)
+2021-04-07T01:27:13,010      ^~~~~
+2021-04-07T01:27:13,011     spams_wrap/spams.h:1187:10: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,011            )  throw(const char *){
+2021-04-07T01:27:13,011               ^~~~~
+2021-04-07T01:27:13,011     spams_wrap/spams.h:1342:189: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,011      Matrix<T> *_archetypalAnalysisInit(Matrix<T>* X, Matrix<T>* Z0, SpMatrix<T>** spA, SpMatrix<T>** spB, bool robust, T epsilon, bool computeXtX, int stepsFISTA, int stepsAS, int numThreads) throw(const char *)  {
+2021-04-07T01:27:13,011                                                                                                                                                                                                  ^~~~~
+2021-04-07T01:27:13,011     spams_wrap/spams.h:1351:194: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,012      Matrix<T> *_archetypalAnalysis(Matrix<T>* X, int p, SpMatrix<T>** spA, SpMatrix<T>** spB, bool robust, T epsilon, bool computeXtX, int stepsFISTA, int stepsAS, bool randominit, int numThreads) throw(const char *) {
+2021-04-07T01:27:13,012                                                                                                                                                                                                       ^~~~~
+2021-04-07T01:27:13,012     spams_wrap/spams.h:1360:92: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,012        SpMatrix<T> *_decompSimplex(Matrix<T>* X, Matrix<T>* Z, bool computeXtX, int numThreads) throw(const char*){
+2021-04-07T01:27:13,012                                                                                                 ^~~~~
+2021-04-07T01:27:13,012     spams_wrap/spams.h:1380:74: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,012      void _im2col_sliding(Matrix<T>  *A,Matrix<T>  *B,int m, int n,bool RGB)  throw(const char *){
+2021-04-07T01:27:13,012                                                                               ^~~~~
+2021-04-07T01:27:13,023     In file included from spams_wrap/spams_wrap.cpp:3131:0:
+2021-04-07T01:27:13,023     spams_wrap/prox/groups-graph.h:202:74: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,023      std::vector<StructNodeElem<T> *> *_groupStructOfString(const char *data) throw(const char *){
+2021-04-07T01:27:13,024                                                                               ^~~~~
+2021-04-07T01:27:13,024     spams_wrap/prox/groups-graph.h:227:70: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,024      std::vector<StructNodeElem<T> *> *_readGroupStruct(const char *file) throw(const char *){
+2021-04-07T01:27:13,024                                                                           ^~~~~
+2021-04-07T01:27:13,024     spams_wrap/prox/groups-graph.h:253:70: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,024      std::vector<StructNodeElem<T> *> *_simpleGroupTree(int *degr, int n) throw(const char *){
+2021-04-07T01:27:13,024                                                                           ^~~~~
+2021-04-07T01:27:13,028     In file included from spams_wrap/spams_wrap.cpp:3131:0:
+2021-04-07T01:27:13,028     spams_wrap/prox/groups-graph.h:483:129: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,028      Vector<T> *_graphOfGroupStruct(std::vector<StructNodeElem<T> *> *gstruct,SpMatrix<bool> **pgroups,SpMatrix<bool> **pgroups_var) throw(const char *) {
+2021-04-07T01:27:13,028                                                                                                                                      ^~~~~
+2021-04-07T01:27:13,028     spams_wrap/prox/groups-graph.h:568:197: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+2021-04-07T01:27:13,028      int _treeOfGroupStruct(std::vector<StructNodeElem<T> *> *gstruct,int **pperm,int *pnb_vars,Vector<T> **peta_g,SpMatrix<bool> **pgroups,Vector<int> **pown_variables,Vector<int> **pN_own_variables) throw(const char *){
+2021-04-07T01:27:13,029                                                                                                                                                                                                          ^~~~~
+2021-04-07T01:27:13,737     In file included from spams_wrap/linalg/utils.h:126:0,
+2021-04-07T01:27:13,738                      from spams_wrap/decomp/decomp.h:33,
+2021-04-07T01:27:13,738                      from spams_wrap/dictLearn/dicts.h:35,
+2021-04-07T01:27:13,738                      from spams_wrap/spams.h:25,
+2021-04-07T01:27:13,738                      from spams_wrap/spams_wrap.cpp:3130:
+2021-04-07T01:27:13,739     spams_wrap/linalg/linalg.h: In instantiation of ‘void SpMatrix<T>::mult(const SpVector<T>&, Vector<T>&, T, T) const [with T = bool]’:
+2021-04-07T01:27:13,739     spams_wrap/spams_wrap.cpp:25830:1:   required from here
+2021-04-07T01:27:13,739     spams_wrap/linalg/linalg.h:4370:21: warning: ‘*’ in boolean context, suggest ‘&&’ instead [-Wint-in-bool-context]
+2021-04-07T01:27:13,739            T val = alpha * x.v(i);
+2021-04-07T01:27:13,739     spams_wrap/linalg/linalg.h: In instantiation of ‘void SpMatrix<T>::mult(const Vector<T>&, Vector<T>&, T, T) const [with T = bool]’:
+2021-04-07T01:27:13,740     spams_wrap/spams_wrap.cpp:25830:1:   required from here
+2021-04-07T01:27:13,740     spams_wrap/linalg/linalg.h:4349:18: warning: ‘*’ in boolean context, suggest ‘&&’ instead [-Wint-in-bool-context]
+2021-04-07T01:27:13,740            T sca=alpha* prX[i];
+2021-04-07T01:27:13,740                  ~~~~~^~~~~~
+2021-04-07T01:27:13,741     spams_wrap/linalg/linalg.h: In instantiation of ‘void Matrix<T>::mult(const SpVector<T>&, Vector<T>&, T, T) const [with T = bool]’:
+2021-04-07T01:27:13,741     spams_wrap/spams_wrap.cpp:25830:1:   required from here
+2021-04-07T01:27:13,741     spams_wrap/linalg/linalg.h:1812:28: warning: ‘*’ in boolean context, suggest ‘&&’ instead [-Wint-in-bool-context]
+2021-04-07T01:27:13,742               cblas_axpy<T>(_m,a*x._v[i],_X+x._r[i]*_m,1,b._X,1);
+2021-04-07T01:27:13,742                                ~^~~~~~
+2021-04-07T01:27:13,766     spams_wrap/linalg/linalg.h: In instantiation of ‘void Matrix<T>::multTrans(const SpVector<T>&, Vector<T>&, T, T) const [with T = bool]’:
+2021-04-07T01:27:13,766     spams_wrap/linalg/linalg.h:4408:13:   required from ‘void SpMatrix<T>::mult(const Matrix<T>&, Matrix<T>&, bool, bool, T, T) const [with T = bool]’
+2021-04-07T01:27:13,767     spams_wrap/spams_wrap.cpp:25830:1:   required from here
+2021-04-07T01:27:13,767     spams_wrap/linalg/linalg.h:1766:25: warning: ‘*’ in boolean context, suggest ‘&&’ instead [-Wint-in-bool-context]
+2021-04-07T01:27:13,767               b._X[i] = alpha*col.dot(x);
+2021-04-07T01:27:13,767     spams_wrap/linalg/linalg.h: In instantiation of ‘void Matrix<T>::rank1Update(const Vector<T>&, const SpVector<T>&, T) [with T = bool]’:
+2021-04-07T01:27:13,767     spams_wrap/linalg/linalg.h:1902:13:   required from ‘void Matrix<T>::mult(const SpMatrix<T>&, Matrix<T>&, bool, bool, T, T) const [with T = bool]’
+2021-04-07T01:27:13,767     spams_wrap/spams_wrap.cpp:25830:1:   required from here
+2021-04-07T01:27:13,767     spams_wrap/linalg/linalg.h:2464:23: warning: ‘*’ in boolean context, suggest ‘&&’ instead [-Wint-in-bool-context]
+2021-04-07T01:27:13,767            Xi.add(vec1,v[i]*alpha);
+2021-04-07T01:27:13,768                        ~~~~^~~~~~
+2021-04-07T01:27:34,786     In file included from spams_wrap/dictLearn/dicts.h:35:0,
+2021-04-07T01:27:34,786                      from spams_wrap/spams.h:25,
+2021-04-07T01:27:34,787                      from spams_wrap/spams_wrap.cpp:3130:
+2021-04-07T01:27:34,787     spams_wrap/decomp/decomp.h: In function ‘void coreORMP(Vector<T>&, Vector<T>&, Vector<T>&, Matrix<T>&, Matrix<T>&, Matrix<T>&, Matrix<T>&, Vector<T>&, const AbstractMatrix<T>&, Vector<int>&, Vector<T>&, T&, const T*, const int*, const T*, T*) [with T = double]’:
+2021-04-07T01:27:34,787     spams_wrap/decomp/decomp.h:635:13: warning: ‘void* memset(void*, int, size_t)’: specified size between 18446744056529682432 and 18446744073709551608 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+2021-04-07T01:27:34,787            memset(path+(L-1)*K,0,L*sizeof(T));
+2021-04-07T01:27:34,787            ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2021-04-07T01:27:34,989     spams_wrap/decomp/decomp.h: In function ‘void coreORMP(Vector<T>&, Vector<T>&, Vector<T>&, Matrix<T>&, Matrix<T>&, Matrix<T>&, Matrix<T>&, Vector<T>&, const AbstractMatrix<T>&, Vector<int>&, Vector<T>&, T&, const T*, const int*, const T*, T*) [with T = float]’:
+2021-04-07T01:27:34,989     spams_wrap/decomp/decomp.h:635:13: warning: ‘void* memset(void*, int, size_t)’: specified size between 18446744065119617024 and 18446744073709551612 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+2021-04-07T01:27:34,989            memset(path+(L-1)*K,0,L*sizeof(T));
+2021-04-07T01:27:34,989            ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2021-04-07T01:28:04,187     /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/ld: cannot find -lblas
+2021-04-07T01:28:04,188     /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/ld: cannot find -llapack
+2021-04-07T01:28:04,188     collect2: error: ld returned 1 exit status
+2021-04-07T01:28:04,189     error: Command "g++ -pthread -shared -B /share/Data01/wupeng2/Anaconda/envs/py3.6/compiler_compat -L/share/Data01/wupeng2/Anaconda/envs/py3.6/lib -Wl,-rpath=/share/Data01/wupeng2/Anaconda/envs/py3.6/lib -Wl,--no-as-needed -Wl,--sysroot=/ build/temp.linux-x86_64-3.6/spams_wrap/spams_wrap.o -L/share/Data01/wupeng2/Anaconda/envs/py3.6/lib -L/usr/local/lib64 -L/usr/local/lib -L/usr/lib64 -L/usr/lib -L/usr/lib/ -lstdc++ -lblas -llapack -o build/lib.linux-x86_64-3.6/_spams_wrap.cpython-36m-x86_64-linux-gnu.so -fopenmp" failed with exit status 1
+2021-04-07T01:28:04,283 ERROR: Command errored out with exit status 1: /share/Data01/wupeng2/Anaconda/envs/py3.6/bin/python -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-l7esub9o/spams_f09708dddb4a477e8997bbb40d1c99f1/setup.py'"'"'; __file__='"'"'/tmp/pip-install-l7esub9o/spams_f09708dddb4a477e8997bbb40d1c99f1/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-itm9vbi8/install-record.txt --single-version-externally-managed --compile --install-headers /share/Data01/wupeng2/Anaconda/envs/py3.6/include/python3.6m/spams Check the logs for full command output.
+2021-04-07T01:28:04,283 Exception information:
+2021-04-07T01:28:04,283 Traceback (most recent call last):
+2021-04-07T01:28:04,283   File "/share/Data01/wupeng2/Anaconda/envs/py3.6/lib/python3.6/site-packages/pip/_internal/req/req_install.py", line 826, in install
+2021-04-07T01:28:04,283     req_description=str(self.req),
+2021-04-07T01:28:04,283   File "/share/Data01/wupeng2/Anaconda/envs/py3.6/lib/python3.6/site-packages/pip/_internal/operations/install/legacy.py", line 86, in install
+2021-04-07T01:28:04,283     raise LegacyInstallFailure
+2021-04-07T01:28:04,283 pip._internal.operations.install.legacy.LegacyInstallFailure
+2021-04-07T01:28:04,283 
+2021-04-07T01:28:04,283 During handling of the above exception, another exception occurred:
+2021-04-07T01:28:04,283 
+2021-04-07T01:28:04,283 Traceback (most recent call last):
+2021-04-07T01:28:04,283   File "/share/Data01/wupeng2/Anaconda/envs/py3.6/lib/python3.6/site-packages/pip/_internal/cli/base_command.py", line 189, in _main
+2021-04-07T01:28:04,283     status = self.run(options, args)
+2021-04-07T01:28:04,283   File "/share/Data01/wupeng2/Anaconda/envs/py3.6/lib/python3.6/site-packages/pip/_internal/cli/req_command.py", line 178, in wrapper
+2021-04-07T01:28:04,283     return func(self, options, args)
+2021-04-07T01:28:04,283   File "/share/Data01/wupeng2/Anaconda/envs/py3.6/lib/python3.6/site-packages/pip/_internal/commands/install.py", line 400, in run
+2021-04-07T01:28:04,283     pycompile=options.compile,
+2021-04-07T01:28:04,283   File "/share/Data01/wupeng2/Anaconda/envs/py3.6/lib/python3.6/site-packages/pip/_internal/req/__init__.py", line 88, in install_given_reqs
+2021-04-07T01:28:04,283     pycompile=pycompile,
+2021-04-07T01:28:04,283   File "/share/Data01/wupeng2/Anaconda/envs/py3.6/lib/python3.6/site-packages/pip/_internal/req/req_install.py", line 830, in install
+2021-04-07T01:28:04,283     six.reraise(*exc.parent)
+2021-04-07T01:28:04,283   File "/share/Data01/wupeng2/Anaconda/envs/py3.6/lib/python3.6/site-packages/pip/_vendor/six.py", line 703, in reraise
+2021-04-07T01:28:04,283     raise value
+2021-04-07T01:28:04,283   File "/share/Data01/wupeng2/Anaconda/envs/py3.6/lib/python3.6/site-packages/pip/_internal/operations/install/legacy.py", line 76, in install
+2021-04-07T01:28:04,283     cwd=unpacked_source_directory,
+2021-04-07T01:28:04,283   File "/share/Data01/wupeng2/Anaconda/envs/py3.6/lib/python3.6/site-packages/pip/_internal/utils/subprocess.py", line 293, in runner
+2021-04-07T01:28:04,283     spinner=spinner,
+2021-04-07T01:28:04,283   File "/share/Data01/wupeng2/Anaconda/envs/py3.6/lib/python3.6/site-packages/pip/_internal/utils/subprocess.py", line 258, in call_subprocess
+2021-04-07T01:28:04,283     raise InstallationSubprocessError(proc.returncode, command_desc)
+2021-04-07T01:28:04,283 pip._internal.exceptions.InstallationSubprocessError: Command errored out with exit status 1: /share/Data01/wupeng2/Anaconda/envs/py3.6/bin/python -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-l7esub9o/spams_f09708dddb4a477e8997bbb40d1c99f1/setup.py'"'"'; __file__='"'"'/tmp/pip-install-l7esub9o/spams_f09708dddb4a477e8997bbb40d1c99f1/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-itm9vbi8/install-record.txt --single-version-externally-managed --compile --install-headers /share/Data01/wupeng2/Anaconda/envs/py3.6/include/python3.6m/spams Check the logs for full command output.
+2021-04-07T01:28:04,442 Removed build tracker: '/tmp/pip-req-tracker-2cntmgw9'
