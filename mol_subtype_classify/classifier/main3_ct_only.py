@@ -32,16 +32,18 @@ def gen_parser():
     parser.add_argument('--epochs', type=int, default=1000, help='number of epochs')
     parser.add_argument('-b', '--batch_size', type=int, default=4, help='batch size')
     parser.add_argument('--seed', type=int, default=1234, help='random seed')
+    parser.add_argument('--fold', type=int, default=0, help='[0,1,2,3,4]')
     return parser.parse_args()
 
-def data_split(x_features, y_label):
+def data_split(x_features, y_label,args):
     # split case
-    SS=StratifiedShuffleSplit(n_splits=1,test_size=0.20,random_state=args.seed)
-    for train_index, test_index in SS.split(x_features, y_label):
-        X_train, X_test = x_features[train_index], x_features[test_index]#训练集对应的值
-        y_train, y_test = y_label[train_index], y_label[test_index]#类别集对应的值
-        print("X_train:",len(X_train))
-        print("X_test:",len(X_test))
+    SS=StratifiedShuffleSplit(n_splits=5,test_size=0.20,random_state=args.seed)
+    split_idx_list = list(SS.split(x_features, y_label))
+    train_index = split_idx_list[args.fold][0]
+    test_index = split_idx_list[args.fold][1]
+
+    X_train, X_test = x_features[train_index], x_features[test_index]#训练集对应的值
+    y_train, y_test = y_label[train_index], y_label[test_index]#类别集对应的值
     return X_train, X_test, y_train, y_test
 
 if __name__ == '__main__':
@@ -49,12 +51,15 @@ if __name__ == '__main__':
     args = gen_parser()
 
     # load dataset
-    datatable = pd.read_csv('/media/wukai/AI_Team_03/Bladder_project/mol_subtype_classify/classifier/dataset_for_classifer.csv',index_col=0, header=0)
+    # load dataset
+    data_dir = '/media/wukai/Data01/Multimodal_analysis_in_bladder_cancer/mol_subtype_classify/classifier'
+    datatable = pd.read_csv(os.path.join(data_dir,'dataset_for_classifer.csv'),index_col=0, header=0)
+    
     y_label = np.array(datatable['mol_label']).astype(np.float32)
     x_features = np.array(datatable.iloc[:,2:])
     x_features = scale(x_features).astype(np.float32)
     # split data
-    X_train, X_test, y_train, y_test = data_split(x_features, y_label)
+    X_train, X_test, y_train, y_test = data_split(x_features, y_label,args)
     # dataloader
     dataset = MyDataset([X_train,y_train])
     dataloader = DataLoader(dataset, batch_size=4, shuffle=True, num_workers=0, drop_last =False)
@@ -107,7 +112,7 @@ if __name__ == '__main__':
         if np.mean([accuracy,auc]) > np.mean([best_acc,best_auc]):
             best_acc = accuracy
             best_auc = auc
-            torch.save(net, '/media/wukai/AI_Team_03/Bladder_project/mol_subtype_classify/classifier/net3_0.pth')
+            torch.save(net, os.path.join(data_dir,'net_ct_fold%s.pth'%args.fold))
 
         print('Epoch %d elapse %.2fs average loss %.2f Current test acc %.2f auc %.2f Best test acc %.2f auc %.2f'%(epoch, time.time() - start_epoch, running_loss/20,accuracy,auc, best_acc, best_auc ))
         scheduler.step()

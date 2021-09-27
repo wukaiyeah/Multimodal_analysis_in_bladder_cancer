@@ -20,7 +20,7 @@ def  counts_to_tpm(datatable, sample_name):
 
 
 if __name__ == '__main__':
-    base_dir = '/media/wukai/AI_Team_03/Bladder_project/Genome'
+    base_dir = '/home/wukai/Multimodal_analysis_in_bladder_cancer/Genome'
     counts_file = os.path.join(base_dir, 'total_rnaseq_counts.csv')
     gene_info_file = os.path.join(base_dir, 'gene_length_info.tsv')
     marker_gene_file = os.path.join(base_dir, 'luminal_basal_marker_gene.txt')

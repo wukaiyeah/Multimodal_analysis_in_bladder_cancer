@@ -3,9 +3,9 @@ library('tidyr')
 library('pROC')
 library('latex2exp')
 
-setwd('G:/Bladder_project/mol_subtype_classify')
+setwd('/media/wukai/Data01/Multimodal_analysis_in_bladder_cancer/mol_subtype_classify')
 # load data
-res = read.csv('./classifier/mol_subtype_pred_res_multinet.csv',
+res = read.csv('./classifier/mol_subtype_pred_res_multi_nets.csv',
                header = TRUE, sep = ',', row.names = 1)
 
 #define object to plot and calculate AUC
@@ -50,9 +50,9 @@ ggplot()+
   geom_abline(slope = 1, intercept =0, linetype = 3, size = 0.7, show.legend = NA)+
   geom_polygon(data = box, aes(x=x , y=y), fill = 'white', color = '#666666',size = 1.5)+
   annotate('text', x = 0.6, y = 0.28, label = c('molecular subtype luminal vs. basal'), size = 13, color = '#666666')+
-  annotate('text', x = 0.65, y = 0.21, label = TeX('Net1 ROC (Area=0.95(0.85-1.0))'),size = 13)+
-  annotate('text', x = 0.63, y = 0.14, label = c('Net2 ROC (Area=0.85(0.65-1.0))'), size = 13)+
-  annotate('text', x =  0.63, y =0.07, label = c('Net3 ROC (Area=0.83(0.62-1.0))'), size = 13)+
+  annotate('text', x = 0.65, y = 0.21, label = TeX('Net1 ROC (Area=0.89 (0.75-1.0))'),size = 13)+
+  annotate('text', x = 0.63, y = 0.14, label = c('Net2 ROC (Area=0.81 (0.56-1.0))'), size = 13)+
+  annotate('text', x =  0.64, y =0.07, label = c('Net3 ROC (Area=0.74 (0.51-0.96))'), size = 13)+
   geom_line(data = line_table1, aes(x = x, y = y),colour = '#C23531', size = 3.5, alpha = 0.7)+
   geom_line(data = line_table2, aes(x = x, y = y),colour =  '#2F4554', size = 3.5, alpha = 0.7)+ 
   geom_line(data = line_table3, aes(x = x, y = y),colour = '#61A0A8', size = 3.5, alpha = 0.7)+

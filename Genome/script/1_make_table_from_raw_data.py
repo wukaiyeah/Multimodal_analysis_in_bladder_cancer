@@ -18,7 +18,7 @@ def make_counts_table(file_dir):
 
 
 if __name__ == '__main__':
-    base_dir = '/media/wukai/AI_Team_03/Bladder_project/Genome'
+    base_dir = '/home/wukai/Multimodal_analysis_in_bladder_cancer/Genome'
     rawCounts_files = glob.glob(os.path.join(base_dir,'RawData','*.tab'))
     for i,counts_file in enumerate(rawCounts_files):
         if i == 0:
