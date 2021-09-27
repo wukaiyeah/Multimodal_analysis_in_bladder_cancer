@@ -109,10 +109,8 @@ if __name__ == '__main__':
         accuracy = accuracy_score(y_test, [1 if pre > 0.5 else 0 for pre in output_test])
         auc = roc_auc_score(y_test, output_test.squeeze().tolist())
 
-        if np.mean([accuracy,auc]) > np.mean([best_acc,best_auc]):
-            best_acc = accuracy
-            best_auc = auc
-            torch.save(net, os.path.join(data_dir,'net_wsi_fold%s.pth'%args.fold))
+
+        torch.save(net, os.path.join(data_dir,'net_wsi_fold%s.pth'%args.fold))
 
         print('Epoch %d elapse %.2fs average loss %.2f Current test acc %.2f auc %.2f Best test acc %.2f auc %.2f'%(epoch, time.time()-start_epoch, running_loss/20, accuracy,auc, best_acc, best_auc))
         scheduler.step()
